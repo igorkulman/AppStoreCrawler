@@ -4,9 +4,7 @@ open System.Net
 open Microsoft.FSharp.Control.WebExtensions
 
 let http (url : string) =
-    let req = System.Net.WebRequest.Create url
-    use resp = req.GetResponse()
-    use stream = resp.GetResponseStream()
-    use reader = new System.IO.StreamReader(stream)
-    let html = reader.ReadToEnd()
+    let wc = new WebClient()
+    wc.Headers.Add("user-agent","Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36")
+    let html = wc.DownloadString url
     html

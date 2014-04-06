@@ -6,6 +6,7 @@ AppStore and Google Play crawler written in F#
 
 - Apple AppStore
 - Google Play Store
+- Windows Phone Store
 
 **Status**
 
