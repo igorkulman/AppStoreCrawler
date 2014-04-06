@@ -1,4 +1,4 @@
-﻿namespace StoreCrawler
+﻿namespace AppStoreCrawler
 
 module Types =
 
