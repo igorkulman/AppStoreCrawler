@@ -1,6 +1,6 @@
 # AppStoreCrawler #
 
-AppStore and Google Play crawler written in F#
+Mobile app stores crawler written in F#
 
 ### Supported stores ###
 
