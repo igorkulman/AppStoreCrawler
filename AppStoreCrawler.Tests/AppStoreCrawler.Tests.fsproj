@@ -53,6 +53,7 @@
     <None Include="packages.config" />
     <None Include="app.config" />
     <Compile Include="GooglePlayTests.fs" />
+    <Compile Include="WindowsPhoneStore.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AppStoreCrawler\AppStoreCrawler.fsproj">

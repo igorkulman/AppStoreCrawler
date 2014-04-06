@@ -65,6 +65,7 @@
     <Compile Include="AppStore.fs" />
     <None Include="packages.config" />
     <Compile Include="PlayStore.fs" />
+    <Compile Include="WindowsPhoneStore.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
