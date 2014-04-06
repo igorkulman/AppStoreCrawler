@@ -8,7 +8,7 @@ open AppStoreCrawler
 type ``Test crawling AppStore`` () =
     
     [<Test>]
-    member x.``Apps should be gound`` () =
+    member x.``Apps should be found`` () =
         let apps = AppStore.searchAppStore "LEMA" "SK"
         Assert.IsNotNull(apps)
         Assert.IsNotEmpty(apps)

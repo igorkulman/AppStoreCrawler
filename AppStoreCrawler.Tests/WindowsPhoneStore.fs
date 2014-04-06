@@ -8,8 +8,7 @@ open AppStoreCrawler
 type ``Test crawling Windows Phone Store`` () =
     
     [<Test>]
-    member x.``Apps should be gound`` () =
+    member x.``Apps should be found`` () =
         let apps = WindowsPhoneStore.searchAppStore "LEMA" "SK"
         Assert.IsNotNull(apps)
         Assert.IsNotEmpty(apps)
-

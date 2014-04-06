@@ -8,8 +8,7 @@ open AppStoreCrawler
 type ``Test crawling Google Play`` () =
     
     [<Test>]
-    member x.``Apps should be gound`` () =
+    member x.``Apps should be found`` () =
         let apps = PlayStore.searchAppStore "LEMA"
         Assert.IsNotNull(apps)
         Assert.IsNotEmpty(apps)
-
