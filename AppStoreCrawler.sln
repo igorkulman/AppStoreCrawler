@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FBC443
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AppStoreCrawler.Tests", "AppStoreCrawler.Tests\AppStoreCrawler.Tests.fsproj", "{8E98894D-021B-41CF-87E6-19C3F884248A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{0C31E1A5-7435-4A38-87F8-58BF8793DC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C31E1A5-7435-4A38-87F8-58BF8793DC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C31E1A5-7435-4A38-87F8-58BF8793DC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E98894D-021B-41CF-87E6-19C3F884248A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E98894D-021B-41CF-87E6-19C3F884248A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E98894D-021B-41CF-87E6-19C3F884248A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E98894D-021B-41CF-87E6-19C3F884248A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

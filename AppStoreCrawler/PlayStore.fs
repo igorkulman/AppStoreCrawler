@@ -1,6 +1,6 @@
 ﻿namespace AppStoreCrawler
 
-module GooglePlay =
+module PlayStore =
 
     open System
     open System.Net
