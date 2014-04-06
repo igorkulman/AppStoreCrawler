@@ -59,7 +59,6 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Compile Include="Types.fs" />
     <Compile Include="Net.fs" />
