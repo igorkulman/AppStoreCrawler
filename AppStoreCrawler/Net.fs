@@ -10,11 +10,3 @@ let http (url : string) =
     use reader = new System.IO.StreamReader(stream)
     let html = reader.ReadToEnd()
     html
-
-let fetchAsync(name, url:string) =
-    async {  
-            let uri = new System.Uri(url)
-            let webClient = new WebClient()
-            let! html = webClient.AsyncDownloadString(uri)
-            return html                   
-    }
